@@ -37,7 +37,6 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   String _ocrText = '';
-  String _ocrHocr = '';
   Map<String, String> tessimgs = {
     "kor":
         "https://raw.githubusercontent.com/khjde1207/tesseract_ocr/master/example/assets/test1.png",
